@@ -5,6 +5,7 @@ if [ -f ./.second_run ]; then
     python manage.py makemigrations
     python manage.py migrate
 else
+    python manage.py collectstatic --noinput
     python manage.py makemigrations
     python manage.py migrate
     python manage.py loaddata backups
