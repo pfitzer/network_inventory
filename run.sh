@@ -5,15 +5,6 @@ if [ -f ./.second_run ]; then
     python manage.py makemigrations
     python manage.py migrate
 else
-    python manage.py makemigrations backups
-    python manage.py makemigrations computers
-    python manage.py makemigrations core
-    python manage.py makemigrations customers
-    python manage.py makemigrations devices
-    python manage.py makemigrations licenses
-    python manage.py makemigrations nets
-    python manage.py makemigrations softwares
-    python manage.py makemigrations users
     python manage.py makemigrations
     python manage.py migrate
     python manage.py loaddata backups

@@ -176,3 +176,5 @@ htmlcov/
 
 network_inventory/static/
 !network_inventory/static/core
+
+.idea
