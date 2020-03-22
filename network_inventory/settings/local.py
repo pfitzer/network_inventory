@@ -1,5 +1,7 @@
 from .base import *
 
+DJANGO_SETTINGS_MODULE = "network_inventory.settings.local"
+
 ALLOWED_HOSTS = [
     'localhost',
     '127.0.0.1',
@@ -14,6 +16,6 @@ DEBUG = True
 DATABASES = {
   'default': {
     'ENGINE': 'django.db.backends.sqlite3',
-    'NAME': ':memory:',
+    'NAME': 'memory.sqlite',
   }
 }

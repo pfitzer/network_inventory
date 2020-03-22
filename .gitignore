@@ -179,3 +179,4 @@ network_inventory/static/
 
 .idea
 /static
+/memory.sqlite

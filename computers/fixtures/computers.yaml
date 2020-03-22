@@ -62,73 +62,62 @@
   fields:
     name: "RAID 60"
 
-  model: computers.Ram
+- model: computers.Ram
   fields:
     ram_type: 1
     size_in_gb: 1
     ecc: False
--
-  model: computers.Ram
+- model: computers.Ram
   fields:
     ram_type: 1
     size_in_gb: 2
     ecc: False
--
-  model: computers.Ram
+- model: computers.Ram
   fields:
     ram_type: 1
     size_in_gb: 4
     ecc: False
--
-  model: computers.Ram
+- model: computers.Ram
   fields:
     ram_type: 1
     size_in_gb: 8
     ecc: False
--
-  model: computers.Ram
+- model: computers.Ram
   fields:
     ram_type: 1
     size_in_gb: 16
     ecc: False
--
-  model: computers.Ram
+- model: computers.Ram
   fields:
     ram_type: 1
     size_in_gb: 24
     ecc: False
--
-  model: computers.Ram
+- model: computers.Ram
   fields:
     ram_type: 1
     size_in_gb: 32
     ecc: False
--
-  model: computers.Ram
+- model: computers.Ram
   fields:
     ram_type: 1
     size_in_gb: 64
     ecc: False
--
-  model: computers.Ram
+- model: computers.Ram
   fields:
     ram_type: 1
     size_in_gb: 96
     ecc: False
--
-  model: computers.Ram
+- model: computers.Ram
   fields:
     ram_type: 1
     size_in_gb: 128
     ecc: False
--
-  model: computers.Ram
+- model: computers.Ram
   fields:
     ram_type: 1
     size_in_gb: 256
     ecc: False
--
-  model: computers.Ram
+- model: computers.Ram
   fields:
     ram_type: 1
     size_in_gb: 512
